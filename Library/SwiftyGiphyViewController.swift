@@ -20,7 +20,7 @@ fileprivate let kSwiftyGiphyCollectionViewCell = "SwiftyGiphyCollectionViewCell"
 
 public class SwiftyGiphyViewController: UIViewController {
 
-    fileprivate let searchController: UISearchController = UISearchController(searchResultsController: nil)
+    public let searchController: UISearchController = UISearchController(searchResultsController: nil)
     fileprivate let searchContainerView: UIView = UIView(frame: CGRect.zero)
 
     fileprivate let collectionView: UICollectionView = UICollectionView(frame: CGRect.zero, collectionViewLayout: SwiftyGiphyGridLayout())
